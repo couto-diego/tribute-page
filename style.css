@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  'EB Garamond', serif;
+
+}
+#header{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#header img{
+    border-radius: 50%;
+    border: 2px solid cyan;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#personagens{
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 85vh;
+   
+
+}
+#shun{
+   
+   background-image:
+   url("img/shun.jpg");
+   background-position: center;
+   background-size: cover;
+   width: 20%;
+   margin: 10px;
+}
+#seya{
+    background-image:  
+   url("img/seya.jpg");
+   background-position: center;
+   background-size: cover;
+   width: 20%;
+   margin: 10px;
+}
+#ikki{
+    background-image: 
+   url("img/ikki.jpg");
+   background-position: center;
+   background-size: cover;
+   width: 20%;
+   margin: 10px;
+
+}
+#shiryu{
+    background-image: 
+   url("img/shiryu.jpg");
+   background-position: center;
+   background-size: cover;
+   width: 20%;
+   margin: 10px;
+}
+#hyoga{
+    background-image: 
+   url("img/hyoga.jpg");
+   background-position: center;
+   background-size: cover;
+   width: 20%;
+   margin: 10px;
+}
+.bio-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    
+}
+#infos,
+#trabalhos {
+    max-width: 50%;
+    font-size: 18px;
+    margin: 10px;
+    background-color: black;
+    color: beige;
+    word-spacing: 0.2em;
+    
+}
+#trabalhos{
+    border-left: 2px solid;
+}
+#trabalhos li, #trabalhos h3{
+    margin-left: 30px;
+
+}
+footer #pesquisa{
+    background-color: black;
+    color: beige;
+    border-top: 1px solid;
+    text-align: center;
+    padding: 10px;
+}
+.tribute-info{
+    text-decoration: none;
+    border: 1px solid;
+    color: beige;
+    border-radius: 8px;
+    margin-left: 5px;
+}
+.tribute-info:hover{
+    background-color: beige;
+    color: black;
+}
+@media (max-width: 450px){
+    #biografia{
+        max-width: 450px;
+    }
+    #personagens{
+        max-width: 450px;
+        
+}
+.bio-info{
+    flex-direction: column;
+    
+
+}
+#infos,
+#trabalhos{
+    border-left: none;
+    max-width: 100%;
+    margin: 20px;
+}
+#trabalhos{
+    border-top: 2px solid;
+    padding: 10px;
+}
+#trabalhos h3{
+    margin-left: 0;
+}
+.tribute-info{
+    display: flex;
+    flex-wrap: wrap;
+    border: 0;
+   justify-content: center;
+}
+
+
+
+}
+
+
+
+
+
+    
+    
+
+
+   
+
+
+
+    
+
+
+    
+ 
+
+
+
+
